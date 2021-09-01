@@ -16,5 +16,8 @@
 .cards{grid-column-gap:calc(var(--gap)/2);grid-row-gap:calc(var(--gap)/2);display:grid;grid-template-columns:1fr 1fr 1fr}@media screen and (max-width:1024px){.cards{grid-template-columns:1fr 1fr}}@media screen and (max-width:724px){.cards{grid-template-columns:1fr}}
 .card{background:var(--color-bg-secondary);border-radius:8px;color:var(--color-text-primary);display:block;font-size:var(--text-size-m);line-height:1.5;margin:0;padding:20px 20px 16px}.card:hover .card__span-ghost{color:var(--color-text-accent)}
 .card__span-ghost{color:var(--color-text-ghost);transition:color .2s ease}
+.elements{display:grid;gap:20px 17px;grid-template-columns:repeat(auto-fill,500px);justify-content:center;list-style:none;margin:0;padding:0}
+.element{background-color:#fff;border-radius:10px;color:#000;display:grid;grid-template-rows:282px 1fr;position:relative}
+.element__image{border-radius:10px 10px 0 0;cursor:pointer;height:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:bottom center;object-position:bottom center;width:100%}
 .footer{box-sizing:border-box;color:var(--color-text-secondary);font-size:var(--text-size-m);padding:30px 0;width:100%}
 
