@@ -1,0 +1,6 @@
+.section-title {
+    margin: 0 0 35px;
+    font-size: var(--text-size-xl);
+    line-height: 1.2;
+    color: var(--color-text-primary);
+}

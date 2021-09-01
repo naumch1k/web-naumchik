@@ -1,0 +1,9 @@
+.education__link {
+  color: var(--color-text-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.education__link:hover {
+  color: var(--color-link-hover);
+}

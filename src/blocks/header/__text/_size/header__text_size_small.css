@@ -1,0 +1,9 @@
+.header__text_size_small {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .header__text_size_small {
+    display: inline;
+  }
+}

@@ -1,0 +1,31 @@
+:root {
+  --color-bg-default: #f0f0f0;
+  --color-bg-secondary: rgba(222, 222, 222, 0.6);
+  --color-text-primary: #2d3436;
+  --color-text-secondary: #636e72;
+  --color-text-ghost: rgba(34, 34, 34, 0.3);
+  --color-text-accent: #e17055;
+  --color-link-hover: #e77f67;
+  --text-size-m: 16px;
+  --text-size-l: 30px;
+  --text-size-xl: 45px;
+  --text-size-xxl: 80px;
+  --gap: 40px;
+}
+
+@media screen and (max-width: 724px) {
+  ::cue-region() {
+    --text-size-l: 22px;
+    --text-size-xl: 35px;
+    --text-size-xxl: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --text-size-l: 16px;
+    --text-size-xl: 25px;
+    --text-size-xxl: 36px;
+    --gap: 20px;
+  }
+}

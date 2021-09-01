@@ -1,0 +1,13 @@
+.header {
+  position: fixed;
+  width: calc(100% - var(--gap) * 2);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2em 0;
+  box-sizing: border-box;
+  background: var(--color-bg-default);
+  text-align: right;
+  font-size: var(--text-size-m);
+  font-variation-settings: "wght" 200;
+  z-index: 1;
+}

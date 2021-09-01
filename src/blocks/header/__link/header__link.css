@@ -1,0 +1,21 @@
+.header__link {
+  text-decoration: none;
+  color: var(--color-text-secondary);
+  transition: color 0.2s ease;
+}
+
+.header__link:hover {
+  color: var(--color-link-hover);
+}
+
+.header__link:not(:last-child)::after {
+  content: "/";
+  margin: 0 10px;
+  color: var(--color-text-ghost);
+}
+
+@media screen and (max-width: 500px) {
+  .header__link:not(:last-child)::after {
+    margin: 0 5px;
+  }
+}

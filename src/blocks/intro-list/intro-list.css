@@ -1,0 +1,12 @@
+.intro-list {
+  position: relative;
+  height: 1.2em;
+  padding-left: 0;
+  margin: 0;
+  overflow: hidden;
+  list-style: none;
+  font-variation-settings: "wght" 400;
+  font-size: var(--text-size-l);
+  line-height: 1.2;
+  color: var(--color-text-secondary);
+}

@@ -1,0 +1,13 @@
+.page {
+  background: var(--color-bg-default);
+  color: var(--color-text-secondary);
+  width: 100%;
+	max-width: 1180px;
+	margin: 0 auto;
+	padding: 0 var(--gap);
+	box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: var(--text-size-m);
+  scroll-behavior: smooth;
+}

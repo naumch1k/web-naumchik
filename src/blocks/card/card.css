@@ -1,0 +1,14 @@
+.card {
+  display: block;
+  margin: 0;
+  padding: 20px 20px 16px;
+  background: var(--color-bg-secondary);
+  border-radius: 8px;
+  font-size: var(--text-size-m);
+  line-height: 1.5;
+  color: var(--color-text-primary);
+}
+
+.card:hover .card__span-ghost {
+  color: var(--color-text-accent);
+}

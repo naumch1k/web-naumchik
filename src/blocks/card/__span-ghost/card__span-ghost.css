@@ -1,0 +1,4 @@
+.card__span-ghost {
+  color: var(--color-text-ghost);
+  transition: color 0.2s ease;
+}
