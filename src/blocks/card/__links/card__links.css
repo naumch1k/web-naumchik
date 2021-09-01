@@ -1,0 +1,12 @@
+.card__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .card__links {
+    flex-direction: column;
+  }
+}

@@ -13,7 +13,16 @@
 @import url('../blocks/intro-list/__item/intro-list__item.css');
 @import url('../blocks/education/__item/education__item.css');
 @import url('../blocks/education/__link/education__link.css');
+@import url('../blocks/blocks/blocks.css');
+@import url('../blocks/block/block.css');
+@import url('../blocks/block/__span-ghost/block__span-ghost.css');
 @import url('../blocks/cards/cards.css');
 @import url('../blocks/card/card.css');
+@import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__title/card__title.css');
 @import url('../blocks/card/__span-ghost/card__span-ghost.css');
+@import url('../blocks/card/__desc/card__desc.css');
+@import url('../blocks/card/__desc-text/card__desc-text.css');
+@import url('../blocks/card/__links/card__links.css');
+@import url('../blocks/card/__link/card__link.css');
 @import url('../blocks/footer/footer.css');

@@ -5,8 +5,7 @@
   margin: 0;
   overflow: hidden;
   list-style: none;
-  font-variation-settings: "wght" 400;
   font-size: var(--text-size-l);
-  line-height: 1.2;
+  line-height: 1.5;
   color: var(--color-text-secondary);
 }

@@ -8,6 +8,5 @@
   background: var(--color-bg-default);
   text-align: right;
   font-size: var(--text-size-m);
-  font-variation-settings: "wght" 200;
   z-index: 1;
 }

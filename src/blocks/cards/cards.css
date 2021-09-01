@@ -1,14 +1,12 @@
 .cards {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: calc(var(--gap) / 2);
-  grid-row-gap: calc(var(--gap) / 2);
-}
-
-@media screen and (max-width: 1024px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
-  }
+  /* grid-template-columns: repeat(auto-fill, 450px); */
+  grid-template-columns: repeat(1, 450px);
+  justify-content: center;
+  /* gap: 20px 17px; */
 }
 
 @media screen and (max-width: 724px) {

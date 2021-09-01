@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>I'm Irina Naumchik</title>
@@ -13,29 +13,30 @@
 
 	<body class="page">
     <div>
+
   		<header class="header">
   			<a class="header__link" href="https://www.linkedin.com/in/naumch1k/" target="_blank">
-  				<span class="header__text_size_big">Linkedin</span>
-  				<span class="header__text_size_small">Lnkdn</span>
+  				<span class="header__text header__text_size_big">Linkedin</span>
+  				<span class="header__text header__text_size_small">Lnkdn</span>
   			</a>
   			<a class="header__link" href="https://github.com/naumch1k" target="_blank">
-  				<span class="header__text_size_big">Github</span>
-  				<span class="header__text_size_small">Gthb</span>
+  				<span class="header__text header__text_size_big">Github</span>
+  				<span class="header__text header__text_size_small">Gthb</span>
   			</a>
   			<a class="header__link" href="https://t.me/naumch1ck" target="_blank">
-  				<span class="header__text_size_big">Telegram</span>
-  				<span class="header__text_size_small">Tlgrm</span>
+  				<span class="header__text header__text_size_big">Telegram</span>
+  				<span class="header__text header__text_size_small">Tlgrm</span>
   			</a>
   		</header>
 
   		<section class="intro">
   			<h1  class="intro__title">Hey, I'm<br />Irina Naumchik</h1>
   			<ul class="intro-list">
-  				<li class="intro-list__item">Web Dev learner</li>
-  				<li class="intro-list__item">driven by constant self-growth</li>
-          <li class="intro-list__item">and why things work</li>
-  				<li class="intro-list__item">with an inborn curiosity for how </li>
-  				<li class="intro-list__item">natural problem solver</li>
+  				<li class="intro-list__item">I do awesome latte art</li>
+          <li class="intro-list__item">and I'm learning how to code!</li>
+  				<li class="intro-list__item">I train for half marathons</li>
+          <li class="intro-list__item">I drive a semi-truck</li>
+  				<li class="intro-list__item">I can knit socks for you</li>
   			</ul>
   		</section>
 
@@ -49,13 +50,13 @@
 
   		<section class="section">
   			<h2 class="section-title">Languages and Tools</h2>
-  			<div class="cards">
-  				<p class="card">HTML <span class="card__span-ghost">/ HTML5, Accessibility</span></p>
-  				<p class="card">CSS <span class="card__span-ghost">/ Responsive Web Design, LESS</span></p>
-  				<p class="card">JavaScript <span class="card__span-ghost">/ DOM, OOP, Functional Programming</span></p>
-  				<p class="card">React <span class="card__span-ghost">/ JSX, Hooks</span></p>
-  				<p class="card">Node and Express <span class="card__span-ghost">/ NPM Modules, Routing, Middlewares</span></p>
-  				<p class="card">MongoDB and Mongoose <span class="card__span-ghost">/ Schemas and Models, Retrieving and Updating Documents</span></p>
+  			<div class="blocks">
+  				<p class="block">HTML <span class="block__span-ghost">/ HTML5, Accessibility</span></p>
+  				<p class="block">CSS <span class="block__span-ghost">/ Responsive Web Design, LESS</span></p>
+  				<p class="block">JavaScript <span class="block__span-ghost">/ DOM, OOP, Functional Programming</span></p>
+  				<p class="block">React <span class="block__span-ghost">/ JSX, Hooks</span></p>
+  				<p class="block">Node and Express <span class="block__span-ghost">/ NPM Modules, Routing, Middlewares</span></p>
+  				<p class="block">MongoDB and Mongoose <span class="block__span-ghost">/ Schemas and Models, Retrieving and Updating Documents</span></p>
   			</div>
         <p class="skills-list">as well as Git&nbsp;/ GitHub&nbsp;/ Figma&nbsp;/ Microsoft Visual Studio Code</p>
   		</section>
@@ -67,12 +68,26 @@
 
       <section class="section">
   			<h2 class="section-title">Projects</h2>
-        <div class="cards">
-  			  <p class="card"><span class="card__span-ghost">// section in progress</span></p>
-        </div>
+        <p>// section still in progress</p>
+        <ul class="cards">
+  			  <li class="card">
+            <img class="card__image" src="<%=require('./images/mesto.jpg')%>" alt="Portfolio project Mesto">
+            <div class="card__desc">
+              <h3 class="card__title">Mesto<span class="card__span-ghost"> / React & Express</span></h3>
+              <div class="card__desc-container">
+                <p class="card__desc-text">Portfolio project at Yandex.Practicum, online photo-sharing application, where users can share their pictures.</p>
+                <div class="card__links">
+                  <a class="card__link" href="https://naumch1k.students.nomoredomains.rocks/" target="_blank">Deployment</a>
+                  <a class="card__link" href="https://github.com/naumch1k/react-mesto-api-full" target="_blank">Repository</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
   		</section>
 
   		<footer class="footer">&copy; 2021. Irina Naumchik</footer>
-  	</body>
-  </div>
+
+    </div>
+  </body>
 </html>
