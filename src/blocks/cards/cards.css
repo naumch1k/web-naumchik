@@ -1,16 +1,9 @@
 .cards {
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 0;
   padding: 0;
   list-style: none;
-  display: grid;
-  /* grid-template-columns: repeat(auto-fill, 450px); */
-  grid-template-columns: repeat(1, 450px);
-  justify-content: center;
-  /* gap: 20px 17px; */
-}
-
-@media screen and (max-width: 724px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
 }

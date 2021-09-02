@@ -1,11 +1,17 @@
 .header__link {
   text-decoration: none;
   color: var(--color-text-secondary);
+  outline: none;
   transition: color 0.2s ease;
 }
 
-.header__link:hover {
+.header__link:hover,
+.header__link:focus {
   color: var(--color-link-hover);
+}
+
+.header__link:active {
+  color: var(--color-link-active);
 }
 
 .header__link:not(:last-child)::after {

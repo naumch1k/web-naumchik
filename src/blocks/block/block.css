@@ -8,7 +8,3 @@
   line-height: 1.5;
   color: var(--color-text-primary);
 }
-
-.block:hover .block__span-ghost {
-  color: var(--color-text-accent);
-}

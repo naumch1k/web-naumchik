@@ -1,6 +1,6 @@
 .card__desc {
   width: calc(100% - 60px);
-  margin: auto;
+  margin: 0 auto;
   padding: 25px 0;
   display: flex;
   flex-direction: column;

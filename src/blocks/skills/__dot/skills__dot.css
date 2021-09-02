@@ -1,0 +1,32 @@
+.skills__dot {
+  position: absolute;
+  top: 73px;
+  left: 162px;
+  width: 9px;
+  height: 9px;
+  background: var(--color-text-accent);
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0px 2.5px;
+
+  animation: jump .8s infinite;
+}
+
+@keyframes jump {
+  0% { transform: translate(-50%, -50%) scale(1.25, 0.75); }
+  50% { transform: translate(-50%, -150%) scale(1, 1); }
+  55% { transform: translate(-50%, -150%) rotate(15deg); }
+  60% { transform: translate(-50%, -150%) rotate(-15deg); }
+  65% { transform: translate(-50%, -150%) rotate(15deg); }
+  70% { transform: translate(-50%, -150%) rotate(-15deg); }
+  100% { transform: translate(-50%, -50%) scale(1.25, 0.75); }
+}
+
+@media screen and (max-width: 500px) {
+  .skills__dot {
+    top: 67px;
+    left: 89px;
+    width: 5px;
+    height: 5px;
+  }
+}

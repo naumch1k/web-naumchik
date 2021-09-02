@@ -1,9 +1,14 @@
 .education__link {
   color: var(--color-text-primary);
-  text-decoration: none;
+  outline: none;
   transition: color 0.2s ease;
 }
 
-.education__link:hover {
+.education__link:hover,
+.education__link:focus {
   color: var(--color-link-hover);
+}
+
+.education__link:active {
+  color: var(--color-link-active);
 }

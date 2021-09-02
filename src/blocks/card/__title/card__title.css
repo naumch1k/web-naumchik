@@ -6,10 +6,6 @@
   font-weight: 700;
 }
 
-.card__title:hover .card__span-ghost {
-  color: var(--color-text-accent);
-}
-
 @media screen and (max-width: 500px) {
   .card__title {
     font-size: 20px;

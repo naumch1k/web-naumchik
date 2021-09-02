@@ -1,0 +1,32 @@
+.skills__span {
+  position: relative;
+}
+
+.skills__span::before {
+  content: "";
+  margin: 0 5px;
+  padding: 0 2px;
+}
+
+.skills__span::after {
+  content: "";
+  position: absolute;
+  top: 19px;
+  left: 4px;
+  width: 7px;
+  height: 25px;
+  background: var(--color-text-primary);
+}
+
+@media screen and (max-width: 500px) {
+  .skills__span::before {
+    margin: 0 2px;
+  }
+
+  .skills__span::after {
+    top: 10px;
+    left: 2px;
+    width: 4px;
+    height: 14px;
+  }
+}
