@@ -1,15 +1,31 @@
-.skills__dot {
+.jumping-dot {
+  position: relative;
+}
+
+.jumping-dot::before {
+  content: "";
+  clip: rect(auto, auto, 0.35em, auto);
+
   position: absolute;
-  top: 73px;
-  left: 162px;
+  top: 9px;
+  left: 6.5px;
   width: 9px;
   height: 9px;
   background: var(--color-text-accent);
-  display: inline-block;
   border-radius: 50%;
-  margin: 0px 2.5px;
+  margin: 0;
+  padding: 0;
 
   animation: jump .8s infinite;
+}
+
+@media screen and (max-width: 500px) {
+  .jumping-dot::before {
+    top: 7px;
+    left: 3.5px;
+    width: 5px;
+    height: 5px;
+  }
 }
 
 @keyframes jump {
@@ -20,13 +36,4 @@
   65% { transform: translate(-50%, -150%) rotate(15deg); }
   70% { transform: translate(-50%, -150%) rotate(-15deg); }
   100% { transform: translate(-50%, -50%) scale(1.25, 0.75); }
-}
-
-@media screen and (max-width: 500px) {
-  .skills__dot {
-    top: 67px;
-    left: 89px;
-    width: 5px;
-    height: 5px;
-  }
 }

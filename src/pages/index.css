@@ -16,9 +16,7 @@
 @import url('../blocks/blocks/blocks.css');
 @import url('../blocks/block/block.css');
 @import url('../blocks/block/__span-ghost/block__span-ghost.css');
-@import url('../blocks/skills/skills.css');
-@import url('../blocks/skills/__span/skills_span.css');
-@import url('../blocks/skills/__dot/skills__dot.css');
+@import url('../blocks/jumping-dot/jumping-dot.css');
 @import url('../blocks/cards/cards.css');
 @import url('../blocks/card/card.css');
 @import url('../blocks/card/__image/card__image.css');
