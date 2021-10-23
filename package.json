@@ -28,6 +28,8 @@
     "webpack-dev-server": "^4.1.0"
   },
   "dependencies": {
-    "core-js": "^3.16.4"
+    "core-js": "^3.16.4",
+    "favicons": "^6.2.2",
+    "favicons-webpack-plugin": "^5.0.2"
   }
 }
