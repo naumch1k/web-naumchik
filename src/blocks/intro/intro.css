@@ -1,7 +1,13 @@
 .intro {
   height: 100vh;
-  max-height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media screen and (max-width: 724px) {
+  .intro {
+    max-width: calc(100% - var(--gap) * 2);
+    margin: 0 auto;
+  }
 }

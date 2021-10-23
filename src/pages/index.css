@@ -20,10 +20,13 @@
 @import url('../blocks/cards/cards.css');
 @import url('../blocks/card/card.css');
 @import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__image-link/card__image-link.css');
 @import url('../blocks/card/__title/card__title.css');
 @import url('../blocks/card/__span-ghost/card__span-ghost.css');
 @import url('../blocks/card/__desc/card__desc.css');
 @import url('../blocks/card/__desc-text/card__desc-text.css');
 @import url('../blocks/card/__links/card__links.css');
 @import url('../blocks/card/__link/card__link.css');
+@import url('../blocks/card/__arrow-container/card__arrow-container.css');
+@import url('../blocks/card/__arrow/card__arrow.css');
 @import url('../blocks/footer/footer.css');

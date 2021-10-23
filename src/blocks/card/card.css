@@ -1,8 +1,32 @@
 .card {
-  width: 400px;
-  display: grid;
-  grid-template-rows: 282px 1fr;
-  color: var(--color-text-secondary);
-  background: #fff;
-  border-radius: 10px;
+  width: calc((100% - 80px)/2)
+}
+
+.card:nth-child(even) {
+  margin: 150px 0 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 510px;
+  }
+
+  .card:nth-child(odd) {
+    margin: 0 150px 0 0;
+  }
+
+  .card:nth-child(even) {
+    margin: 0 0 0 150px;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .card {
+    width: 100%;
+  }
+
+  .card:nth-child(odd),
+  .card:nth-child(even) {
+    margin: 0;
+  }
 }

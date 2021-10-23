@@ -1,6 +1,7 @@
 .footer {
-  width: 100%;
+  width: calc(100% - var(--gap) * 2);
   box-sizing: border-box;
+  margin: 0 auto;
   padding: 30px 0;
   font-size: var(--text-size-m);
   color: var(--color-text-secondary);

@@ -1,9 +1,15 @@
 .cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 40px;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    justify-content: space-around;
+    gap: 40px;
+  }
 }

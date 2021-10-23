@@ -1,0 +1,8 @@
+.card__arrow-container {
+  position: relative;
+  width: 20px;
+  display: flex;
+  margin-left: 10px;
+
+  overflow: hidden;
+}

@@ -16,7 +16,7 @@
 }
 
 @media screen and (max-width: 724px) {
-  ::cue-region() {
+  :root {
     --text-size-l: 22px;
     --text-size-xl: 35px;
     --text-size-xxl: 60px;

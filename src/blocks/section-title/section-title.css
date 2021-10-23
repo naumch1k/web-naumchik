@@ -5,3 +5,10 @@
     font-weight: 700;
     color: var(--color-text-primary);
 }
+
+
+@media screen and (max-width: 724px) {
+  .section-title_place_projects {
+    margin: 0 0 35px var(--gap);
+  }
+}
