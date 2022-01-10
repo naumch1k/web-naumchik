@@ -1,9 +1,13 @@
 .card__image {
-  height: 382px;
+  height: 270px;
   width: 100%;
   object-fit: cover;
   object-position: top center;
   filter: grayscale(75%);
+}
+
+.card__image_project_how-to-learn {
+  object-position: top left;
 }
 
 .card__image-link:hover .card__image,
