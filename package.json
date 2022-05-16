@@ -1,13 +1,17 @@
 {
   "name": "naumch1k",
   "version": "1.0.0",
+  "homepage": "https://naumchik.me",
   "description": "Personal Webpage",
+  "author": {
+    "name": "Irina Naumchik",
+    "email": "naumchikirina@yahoo.com"
+  },
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack serve"
   },
-  "author": "Irina Naumchik",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.15.0",
