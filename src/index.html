@@ -52,31 +52,72 @@
   			<h2 class="section-title">Languages and Tools</h2>
   			<div class="blocks">
   				<p class="block">HTML <span class="block__span-ghost">/ HTML5, Accessibility</span></p>
-  				<p class="block">CSS <span class="block__span-ghost">/ Responsive Web Design, LESS/SASS, CSS-modules</span></p>
-  				<p class="block">JavaScript <span class="block__span-ghost">/ DOM, OOP, Functional Programming</span></p>
-  				<p class="block">React <span class="block__span-ghost">/ JSX, Hooks, Next.js</span></p>
+  				<p class="block">CSS <span class="block__span-ghost">/ Responsive Web Design, LESS/SCSS, CSS modules</span></p>
+  				<p class="block">JavaScript <span class="block__span-ghost">/ DOM, OOP, Functional Programming, TypeScript</span></p>
+  				<p class="block">React <span class="block__span-ghost">/ JSX, Hooks, Next.js, Redux</span></p>
   				<p class="block">Node and Express <span class="block__span-ghost">/ NPM Modules, Routing, Middlewares</span></p>
   				<p class="block">MongoDB and Mongoose <span class="block__span-ghost">/ Schemas and Models, Retrieving and Updating Documents</span></p>
   			</div>
-        <p style="margin-left:20px;">as well as Git&nbsp;/ TypeScript&nbsp;/ Storybook&nbsp;/ Webpack&nbsp;/ Gulp</p>
+        <p style="margin-left:20px;">as well as Git&nbsp;/ Storybook&nbsp;/ Webpack&nbsp;/ Gulp&nbsp;/ AWS EC2&nbsp;/ CICD</p>
   		</section>
 
-      <section class="section section_size_narrow">
+      <!-- <section class="section section_size_narrow">
   			<h2 class="section-title">Soft Sk<span class="jumping-dot">ı</span>lls</h2>
         <p>Problem Solving&nbsp;/ Time Management&nbsp;/ Teamwork&nbsp;/ Decision-Making&nbsp;/ Customer Service&nbsp;/ Expectations Management&nbsp;/ Attention to Detail</p>
-  		</section>
+  		</section> -->
 
       <section class="section section_size_wide">
   			<h2 class="section-title section-title_place_projects">Projects</h2>
         <ul class="cards">
           <li class="card">
+            <a class="card__image-link" href="https://pgds.xyz/" target="_blank" rel="noreferrer">
+              <img class="card__image" src="<%=require('./images/palianytsia.jpg')%>" alt="Palianytsia Game Development Studio">
+            </a>
+            <div class="card__desc">
+              <h3 class="card__title">Palianytsia<span class="card__span-ghost"> /&nbsp;SCSS & CSS modules, React, CI/CD</span></h3>
+              <div class="card__desc-container">
+                <p class="card__desc-text">
+                  Palianytsia is&nbsp;a&nbsp;US-based NPO dedicated to&nbsp;empowering and supporting Ukrainian youth in&nbsp;IT education.
+                  I&nbsp;built them a&nbsp;homepage to&nbsp;aid their mission and help to&nbsp;raise funds to&nbsp;bridge the gap in&nbsp;access to&nbsp;educational resources and technology.
+                </p>
+                <a class="card__link" href="https://github.com/naumch1k/palyanitsa" target="_blank" rel="noreferrer">
+                  Repository
+                  <div class="card__arrow-container">
+                    <span class="card__arrow">→</span>
+                    <span class="card__arrow">→</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <a class="card__image-link" href="https://naumch1k.github.io/stellar-burgers/" target="_blank" rel="noreferrer">
+              <img class="card__image" src="<%=require('./images/stellar-burgers.jpg')%>" alt="Palianytsia Game Development Studio">
+            </a>
+            <div class="card__desc">
+              <h3 class="card__title">Stellar Burgers<span class="card__span-ghost"> /&nbsp;CSS modules, React, TypeScript, Redux</span></h3>
+              <div class="card__desc-container">
+                <p class="card__desc-text">
+                  In&nbsp;my&nbsp;ongoing portfolio project, I&nbsp;aim to&nbsp;enhance my&nbsp;skills in&nbsp;TypeScript and Redux. When finished, the app will allow you to&nbsp;build a&nbsp;burger from ingredients using drag-and-drop, place an&nbsp;order, track its status in&nbsp;the order feed, and much more!                </p>
+                <a class="card__link" href="https://github.com/naumch1k/stellar-burgers" target="_blank" rel="noreferrer">
+                  Repository
+                  <div class="card__arrow-container">
+                    <span class="card__arrow">→</span>
+                    <span class="card__arrow">→</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="card">
             <a class="card__image-link" href="https://moviesnaumchik.xyz/" target="_blank" rel="noreferrer">
               <img class="card__image" src="<%=require('./images/movies-explorer.jpg')%>" alt="Portfolio project Movies Explorer">
             </a>
             <div class="card__desc">
-              <h3 class="card__title">Movies Explorer<span class="card__span-ghost"> /&nbsp;React & Express</span></h3>
+              <h3 class="card__title">Movies Explorer<span class="card__span-ghost"> /&nbsp;React, MongoDB, Node.js, Express, AWS EC2</span></h3>
               <div class="card__desc-container">
-                <p class="card__desc-text">Portfolio project at Practicum Bootcamp, online app that allows users to look up movies and save the best ones to a favorite movies tab</p>
+                <p class="card__desc-text">
+                  This project is&nbsp;the capstone project of&nbsp;my&nbsp;education at&nbsp;Practicum Bootcamp. It&nbsp;allows users to&nbsp;log&nbsp;in, search for movies, and save them according to&nbsp;their interests to&nbsp;their personal accounts.                </p>
                 <a class="card__link" href="https://github.com/naumch1k/movies-explorer-frontend" target="_blank" rel="noreferrer">
                   Repository
                   <div class="card__arrow-container">
@@ -92,11 +133,10 @@
               <img class="card__image" src="<%=require('./images/around-us.jpg')%>" alt="Portfolio project Around the U.S.">
             </a>
             <div class="card__desc">
-              <h3 class="card__title">Around the U.S.<span class="card__span-ghost"> /&nbsp;React & Express</span></h3>
+              <h3 class="card__title">Around the U.S.<span class="card__span-ghost"> /&nbsp;React, MongoDB, Node.js, Express, AWS EC2</span></h3>
               <div class="card__desc-container">
                 <p class="card__desc-text">
-                  Portfolio project at Practicum Bootcamp, an online photo-sharing application with user login and authentication
-                </p>
+                  Portfolio project at&nbsp;Practicum Bootcamp, an&nbsp;app where you can upload photos with personalized captions to&nbsp;your personal photo collection. App enhanced with user authorization and authentication and client-side form validation behavior for improved user experience.                </p>
                 <a class="card__link" href="https://github.com/naumch1k/react-mesto-api-full" target="_blank" rel="noreferrer">
                   Repository
                   <div class="card__arrow-container">
@@ -115,7 +155,8 @@
               <h3 class="card__title">From Portland to Portland<span class="card__span-ghost"> /&nbsp;HTML, CSS, Adaptive design</span></h3>
               <div class="card__desc-container">
                 <p class="card__desc-text">
-                  Portfolio project at Practicum Bootcamp, single-page website with adaptive design about traveling across the United States
+                  Portfolio project at Practicum Bootcamp, single-page website with adaptive design about traveling across the United States.
+                  This project fulfilled a Figma design and implemented media queries to ensure that the page appeared and functioned seamlessly across all device sizes.
                 </p>
                 <a class="card__link" href="https://github.com/naumch1k/from-portland-to-portland" target="_blank" rel="noreferrer">
                   Repository
@@ -129,13 +170,13 @@
           </li>
           <li class="card">
             <a class="card__image-link" href="https://naumch1k.github.io/how-to-learn/" target="_blank" rel="noreferrer">
-              <img class="card__image card__image_project_how-to-learn" src="<%=require('./images/how-to-learn.gif')%>" alt="Portfolio project How To Learn">
+              <img class="card__image card__image_project_how-to-learn" src="<%=require('./images/how-to-learn.jpg')%>" alt="Portfolio project How To Learn">
             </a>
             <div class="card__desc">
               <h3 class="card__title">Learning How to Learn<span class="card__span-ghost"> /&nbsp;HTML, CSS, CSS Animations</span></h3>
               <div class="card__desc-container">
                 <p class="card__desc-text">
-                  Portfolio project at Practicum Bootcamp, is a static website that is intended to discuss the most effective, cutting-edge learning techniques
+                  Portfolio project at Practicum Bootcamp, is a static website that is intended to discuss the most effective, cutting-edge learning techniques.
                 </p>
                 <a class="card__link" href="https://github.com/naumch1k/how-to-learn" target="_blank" rel="noreferrer">
                   Repository
