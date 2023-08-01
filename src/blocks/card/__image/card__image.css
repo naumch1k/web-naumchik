@@ -3,7 +3,7 @@
   width: 100%;
   object-fit: cover;
   object-position: top center;
-  filter: grayscale(75%);
+  filter: grayscale(40%);
 }
 
 .card__image_project_how-to-learn {
